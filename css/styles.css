@@ -204,15 +204,32 @@ body {
 	margin-right: 50px;
 }
 
+
 .site-adress {
 	display: flex;
 	margin-left: auto;
+	justify-content: center;
+	align-items: center;
+	color: var(--primary-text-color);
+
 }
 
 .site-adress .item {
+	display: flex;
 	padding-top: 32px;
 	padding-bottom: 32px;
+	justify-content: center;
+	align-items: center;
 }
+
+.site-adress .item .icon {
+	display: flex;
+	margin-right: 10px;
+	justify-content: center;
+	align-items: center;
+	fill: currentColor;
+}
+
 
 .site-adress .item:not(:last-child) {
 	margin-right: 50px;
@@ -226,8 +243,8 @@ body {
 	color: var(--primary-text-color);
 }
 
-.site-adress .link:hover,
-.site-adress .link:focus {
+.site-adress :hover,
+.site-adress :focus {
 	color: var(--blue-color);
 }
 
@@ -241,7 +258,7 @@ body {
 }
 
 .city-adress:hover,
-.city-adressfocus {
+.city-adress:focus {
 	color: var(--blue-color);
 }
 
